@@ -21,7 +21,7 @@ Pull the latest changes: `git pull`
 
 Stage the main repository: `cd .. && git add .`
 
-Commit the the new submodule reference: `git commit "update content"`
+Commit the the new submodule reference: `git commit -m "update content"`
 
 [These instructions were adapted from here.](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
 
