@@ -13,15 +13,17 @@ This file is to be used as a [submodule](https://git-scm.com/book/en/v2/Git-Tool
 
 ### Updating the Main Repo
 
-In order to get the latest content synced to the main repository, first initialize the submodules: `git submodule init`, then `git submodule update`
-
-Change to the submodule's directory `cd content`
+In order to get the latest content synced to the main repository, first go to the submodule's directory: `cd content`
 
 Switch the submodule's branch to master: `git checkout master`
 
 Pull the latest changes: `git pull`
 
-Commit the main repository: `cd .. && git commit`
+Stage the main repository: `cd .. && git add .`
+
+Commit the the new submodule reference: `git commit "update content"`
+
+[These instructions were adapted from here.](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
 
 ## Formatting
 
