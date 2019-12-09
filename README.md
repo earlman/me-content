@@ -25,6 +25,21 @@ Commit the the new submodule reference: `git commit -m "update content submodule
 
 [These instructions were adapted from here.](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
 
+## Folder Structure
+
+For the initial version of this blog, the folder structure will be as follows:
+
+    content
+    |-- articles
+    |-- notes
+    |-- experience
+        |-- books
+        |-- movies
+        |-- shows
+    
+
+    
+
 ## Formatting
 
 This content will be stored as Markdown files, with properties formatted as YAML.
