@@ -37,8 +37,21 @@ For the initial version of this blog, the folder structure will be as follows:
         |-- movies
         |-- shows
     
+Eventually, this will be expanded:
 
-    
+    content
+    |-- articles
+    |-- notes
+    |-- action_upcoming
+    |   |-- creations_upcoming
+    |   |-- career_upcoming
+    |   
+    |-- experience
+        |-- books
+        |-- movies
+        |-- shows
+        |-- games_upcoming
+        |-- music_upcoming
 
 ## Formatting
 
