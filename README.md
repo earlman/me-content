@@ -95,8 +95,23 @@ There will eventually be requirements for the properties of each piece of conten
         - `<int>`: Implies review only pertains to this season.
 
 ### Articles
+- `title`:
+- `date-published`:
+- `date-created`:
+- `date-updated`:
+- `tags`:
+- `category`: Accepts `action`, `maintenance`, or `experience`
 
 ### Notes
+- `date-published`:
+- `date-created`:
+- `date-updated`:
+- `tags`:
+- `private`: boolean. when 'true', tweet cannot be accessed unless logged in
+
+
+* Notes do not allow for heading in body
+
 
 
 
