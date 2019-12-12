@@ -104,7 +104,7 @@ However, as editor-in-chief, it's extremely important that the main page for eac
     - `score`: A score between -5 and 5
     - `date`: The date the rating was created. Useful information for replays and noting delayed ratings/bias. By default should show latest rating?
 - `link`
-    - `/books`: NOT USED
+    - `/books`: Goodreads page
     - `/movies`: Wikipedia page
     - `/shows`: Wikipedia page. Link to either the "season" page or "show" page, depending on what the file refers to. See `season` field.
 - `isbn`
