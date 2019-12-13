@@ -59,21 +59,32 @@ content/article/: A pieces of content where the author is arguing an opinion or 
 
 ## Formatting
 
-This content will be stored as Markdown files, with properties formatted as YAML.
+* This blog content will be stored as Markdown files, with properties formatted as YAML.
+* For `/articles` and `/notes`, the textual content should go under the properties, as expected. For `/experience`, there are further specifications. See next section for details
+* The title will automatically be generated for the content pages using the `title` property. So, the content markdown should not include any H1 blocks.
 
-For `/articles` and `/notes`, the textual content should go under the properties, as expected. 
+## Experience Content
 
-## Reviews, Book Notes, Updates
+The main idea to keep in mind here is that we want to leave ample room for flexibility and creativity, since the experience should itself dictate the best way to organize its notes. That being said&mdash;some guidelines could still be helpful.
+
+
+* Move "meta" container info into this section
+
+
+### Books
 
 Items in an `/experience` category may have optional notes stored in markdown as well.    However, these types of notes can often have a different nature to normal articles. There can also be many separate notes, written at different times, for each piece of content [more information below](). Therefore, some conventions should be put in place to maintain some organization, both in the database and the user interface.
 
 **1)** New thoughts should be put at the top of the file (this does not include book notes being added while the book is still in progress).
 
-**2)** New thoughts should be separated with a thematic break (`---`) and contain a date with h6 format like so: `###### Updated November 6, 2019`
+**2)** New thoughts should be separated with a thematic break (`---`)
 
-**3)** Comments on the review itself such as *why it was written* or *how my previous mindset may have altered review* should be written in a `meta` container like so:
+**3)** Sections writted after `date-published` should contain a `time` tag with h6 format like so: `<time datetime="2019-12-12">Updated December 12, 2019</time>`
+
+**4)** Comments on the review itself such as *why it was written* or *how my previous mindset may have altered review* should be written in a `meta` container like so:
     
     ::: meta
+    <time datetime="2019-12-12">Updated December 12, 2019</time>
     I fell asleep for a couple episodes in the middle of this but I really don't think they would've change my opinion of the show as a whole
     :::
     
@@ -94,21 +105,23 @@ However, as editor-in-chief, it's extremely important that the main page for eac
 ### Experience
 
 - `title`
+- `short-title`: (optional) Use as a substitution in displaying lists if the title is too long
 - `creator`
     - `/books`: Use author
     - `/movies`: Use director
     - `/shows`: Use author (as used in Wikipedia)
 - `date-completed`: The date or approximate date of the experience. See [DateTime](#DateTime) for formatting.
-- `date-published`: The date the file was created in the earlman.me content repository. See [DateTime](#DateTime) for formatting..
+- `date-published`: The date this experience was first published. See [DateTime](#DateTime) for formatting..
+- `date-started`: (optional) 
 - `rating`: An object or array of objects with the following properties
     - `score`: A score between -5 and 5
     - `date`: The date the rating was created. Useful information for replays and noting delayed ratings/bias. By default should show latest rating?
 - `link`
-    - `/books`: Goodreads page
+    - `/books`: Goodreads page. If I've rated it, use the review page. If not, use the book page.
     - `/movies`: Wikipedia page
     - `/shows`: Wikipedia page. Link to either the "season" page or "show" page, depending on what the file refers to. See `season` field.
 - `isbn`
-    - `/books`
+    - `/books`: use ISBN-13 rather than ISBN-10, whenever possible.
     - `/movies`: NOT USED
     - `/shows`: NOT USED
 - `season`
@@ -117,6 +130,15 @@ However, as editor-in-chief, it's extremely important that the main page for eac
     - `/shows`:
         - `all`: Denotes a show completed in its entirety and implies rating includes all seasons.
         - `<int>`: Implies review only pertains to this season.
+- `replayed`: (optional)  Accepts a date list of dates when this was replayed.
+- `audiobook`: (optional, for `/books` only)
+        `true` if this was read in audiobook format. 
+- `graphic-novel`: (optional, for `/books` only)
+        `true` if this is a graphic novel
+- `series`: (optional, for `/books` only) Get this info from the Goodreads series page
+    - `title`: Series title
+    - `book-number`: 
+    - `link`: Goodreads series page
 
 ### Articles
 - `title`:
@@ -141,8 +163,10 @@ However, as editor-in-chief, it's extremely important that the main page for eac
 
 
 ### DateTime
-The accepted date format is extended format according to [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601):
 
-`YYYY-MM-DDThh:mm:ssTZD`
+2 DateTime formats are accepted. Both are in accordance with [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601):
 
-**Note:** This standard only refers to the plain-text version, as it's stored in the database. Implementations of the data can and should adjust the format to make it easier to read.
+1) `YYYY-MM-DDThh:mm`
+2) `YYYY-MM-DD`
+
+**Note:** This standard only refers to the property as it's stored in the database. Implementations of the data can and should adjust the format to make it easier to read.
