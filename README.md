@@ -144,17 +144,17 @@ However, as editor-in-chief, it's extremely important that the main page for eac
 - `title`:
 - `date-published`:
 - `date-created`:
-- `date-updated`:
+- `date-updated`: (optional)
 - `tags`:
 - `category`: Accepts `action`, `maintenance`, or `experience`
 
 ### Notes
 - `date-published`:
 - `date-created`:
-- `date-updated`:
+- `date-updated`: (optional)
 - `tags`:
 - `private`: boolean. when 'true', tweet cannot be accessed unless logged in
-
+- `link`: link to original post 
 
 * Notes do not allow for heading in body
 
@@ -164,7 +164,7 @@ However, as editor-in-chief, it's extremely important that the main page for eac
 
 ### DateTime
 
-2 DateTime formats are accepted. Both are in accordance with [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601):
+2 DateTime formats are accepted. Both assume the CST timezone and are in accordance with [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601):
 
 1) `YYYY-MM-DDThh:mm`
 2) `YYYY-MM-DD`
