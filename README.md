@@ -119,7 +119,7 @@ However, as editor-in-chief, it's extremely important that the main page for eac
 - `link`
     - `/books`: Goodreads page. If I've rated it, use the review page. If not, use the book page.
     - `/movies`: Wikipedia page
-    - `/shows`: Wikipedia page. Link to either the "season" page or "show" page, depending on what the file refers to. See `season` field.
+    - `/shows`: Wikipedia page. Link to either the "season" page or "show" page, depending on what the file refers to. See `season` field. For anime, link to MyAnimeList page.
 - `isbn`
     - `/books`: use ISBN-13 rather than ISBN-10, whenever possible.
     - `/movies`: NOT USED
@@ -135,10 +135,10 @@ However, as editor-in-chief, it's extremely important that the main page for eac
         `true` if this was read in audiobook format. 
 - `graphic-novel`: (optional, for `/books` only)
         `true` if this is a graphic novel
-- `series`: (optional, for `/books` only) Get this info from the Goodreads series page
+- `series`: (optional, for `/books` and `/movies`) Get this info from the Goodreads series page
     - `title`: Series title
-    - `book-number`: 
-    - `link`: Goodreads series page
+    - `number`: 
+    - `link`: Goodreads series page (book) / Wikipedia series page (movie)
 
 ### Articles
 - `title`:

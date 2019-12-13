@@ -1,15 +1,64 @@
 # Template
 
 
+## Movies
+### Metadata
+
+Basic: 
+```yaml
 ---
 
-## Review
+    title:
+    creator:
+    date-completed:
+    date-published:
+    rating:
+        score:
+        date:
+    link:
+
+---
+```
+
+Extended:
+```yaml
+---
+
+    title:
+    short-title:
+    creator:
+    date-completed:
+    date-published:
+    rating:
+        - score:
+          date:
+        - score:
+          date:
+    link:
+    series:
+        title:
+        number:
+        link:
+    replayed:
+
+---
+```
+
+
+
+
+
+
+## Books
+---
+
+### Review
 
 [Enter text]
 
 ---
 
-## Book Notes
+### Notes Format
 
 (Book Notes should go *below* Reviews.)
 
@@ -32,7 +81,7 @@
 > [Enter quote]
 
 
-### Book Notes Example
+### Notes Example
 
 <time datetime="2017-06-11">7% completed</time> wtf this book is so fkn long
 
