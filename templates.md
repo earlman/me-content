@@ -1,5 +1,19 @@
 # Template
 
+## Articles
+### Metadata
+
+```yaml
+---
+
+    title:
+    date-published:
+    date-created:
+    category:
+
+---
+```
+
 
 ## Movies
 ### Metadata

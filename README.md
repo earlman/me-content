@@ -84,7 +84,7 @@ Items in an `/experience` category may have optional notes stored in markdown as
 **4)** Comments on the review itself such as *why it was written* or *how my previous mindset may have altered review* should be written in a `meta` container like so:
     
     ::: meta
-    <time datetime="2019-12-12">Updated December 12, 2019</time>
+    <time datetime="2019-12-12">December 12, 2019</time>
     I fell asleep for a couple episodes in the middle of this but I really don't think they would've change my opinion of the show as a whole
     :::
     
@@ -111,9 +111,9 @@ However, as editor-in-chief, it's extremely important that the main page for eac
     - `/movies`: Use director
     - `/shows`: Use author (as used in Wikipedia)
 - `date-completed`: The date or approximate date of the experience. See [DateTime](#DateTime) for formatting.
-- `date-published`: The date this experience was first published. See [DateTime](#DateTime) for formatting..
+- `date-published`: The date this experience was first published on [earlman.me]. See [DateTime](#DateTime) for formatting. (If review was published elsewhere, use that date for `date-created`, not `date-published`)
 - `date-started`: (optional) 
-- `rating`: An object or array of objects with the following properties
+- `rating`: (optional) An object or array of objects with the following properties. (TODO: If no rating is added, display "No public opinion has been published"
     - `score`: A score between -5 and 5
     - `date`: The date the rating was created. Useful information for replays and noting delayed ratings/bias. By default should show latest rating?
 - `link`
@@ -142,18 +142,21 @@ However, as editor-in-chief, it's extremely important that the main page for eac
 
 ### Articles
 - `title`:
-- `date-published`:
-- `date-created`:
+- `date-published`: Date when this file was first made. (if published elsewhere, use that date for `date-created`, not `date-published`)
+- `date-created`: Date when this piece was first created. It's preferred to use the date when the article was first drafted. 
 - `date-updated`: (optional)
 - `tags`:
 - `category`: Accepts `action`, `maintenance`, or `experience`
 
 ### Notes
 - `date-published`:
-- `date-created`:
+- `date-created`: 
 - `date-updated`: (optional)
 - `tags`:
-- `private`: boolean. when 'true', tweet cannot be accessed unless logged in
+- `privacy`: 
+    - `public`: (default) Visible in feeds and search results.
+    - `private`: Cannot be accessed unless logged in.
+    - `unlisted`: Only accessible via permalink.
 - `link`: link to original post 
 
 * Notes do not allow for heading in body
