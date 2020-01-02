@@ -1,3 +1,9 @@
+---
+
+    profile-image: "./profilepicture.png"
+
+---
+
 Hiya! I’m Earl.
 
 I like do a bunch of stuff—<br/>
