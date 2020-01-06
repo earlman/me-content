@@ -1,11 +1,10 @@
 ---
 
+    id: "landing"
     title: "landing"
-    profile-image: "./profilepicture.png"
 
 ---
 
-Hiya! I’m Earl.
+<p class="large">Hiya! I’m Earl.</p>
 
-I like do a bunch of stuff—<br/>
-I like to sing and play piano, I studied chemical engineering, and now I run a web development business.
+<p class="large">I like do a bunch of stuff—<br/>I like to sing and play piano, I studied chemical engineering, and now I run a web development business.</p>
