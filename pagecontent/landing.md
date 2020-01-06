@@ -1,5 +1,6 @@
 ---
 
+    title: "landing"
     profile-image: "./profilepicture.png"
 
 ---
