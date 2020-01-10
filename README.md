@@ -84,7 +84,7 @@ Items in an `/experience` category may have optional notes stored in markdown as
 **4)** Comments on the review itself such as *why it was written* or *how my previous mindset may have altered review* should be written in a `meta` container like so:
     
     ::: meta
-    <time datetime="2019-12-12">December 12, 2019</time>
+    <time datetime="2019-12-12">Updated December 12, 2019</time>
     I fell asleep for a couple episodes in the middle of this but I really don't think they would've change my opinion of the show as a whole
     :::
     
@@ -111,11 +111,15 @@ However, as editor-in-chief, it's extremely important that the main page for eac
     - `/movies`: Use director
     - `/shows`: Use author (as used in Wikipedia)
 - `date-completed`: The date or approximate date of the experience. See [DateTime](#DateTime) for formatting.
-- `date-published`: The date this experience was first published on [earlman.me]. See [DateTime](#DateTime) for formatting. (If review was published elsewhere, use that date for `date-created`, not `date-published`)
+- `date-published`: The date this experience was first published. See [DateTime](#DateTime) for formatting..
 - `date-started`: (optional) 
-- `rating`: (optional) An object or array of objects with the following properties. (TODO: If no rating is added, display "No public opinion has been published"
+- `rating`: An object or array of objects with the following properties
     - `score`: A score between -5 and 5
     - `date`: The date the rating was created. Useful information for replays and noting delayed ratings/bias. By default should show latest rating?
+- `status`:
+    - `complete` (default)
+    - `in-progress` started, with plans for completion
+    - `dropped` started, with no plans for completion
 - `link`
     - `/books`: Goodreads page. If I've rated it, use the review page. If not, use the book page.
     - `/movies`: Wikipedia page
