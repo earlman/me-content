@@ -7,6 +7,7 @@
 ---
 
     title:
+    subtitle:
     date-published:
     date-created:
     category:
