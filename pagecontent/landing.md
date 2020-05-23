@@ -11,4 +11,8 @@
 
 <p class="large">Hiya! I’m Earl.</p>
 
-<p class="large">I like do a bunch of stuff—<br/>I like to sing and play piano, I studied chemical engineering, and now I run a web development business.</p>
+<p class="large">I’m a digital craftsman and a humble aesthete,
+but pretty much all I care about is helping make the world a better place.</p>
+
+<p class="large">Currently, I run a company called <strong>
+foundations</strong>.</p>
