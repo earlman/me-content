@@ -23,7 +23,7 @@ I'm not starting this newsletter because I think there are broken things that ne
 
 okay enough of that
 
-I've spend a lot of time on the newsletter, but I've pulled waaaay back on my aspirations for this first one. Eventually I want you to be able to click a *like button* on posts, I want to have surveys and special editions and more links and videos, so that I can see what you're into and how I can best serve you. Because I'm ready to bring things thing wherever it needs to go.
+I've spend a lot of time on the newsletter, but I've pulled waaaay back on my aspirations for this first one. Eventually I want you to be able to click a *like button* on posts, I want to have surveys and special editions and more links and videos, so that I can see what you're into and how I can best serve you. I also need to fix some of the formatting. It only looks half as good as I designed it because email's a bitch about CSS. 
 
 But for now, I just have a question. Obviously, you don't need to reply. Obviously, you can say as much or as little as you want about what you thought about my articles or what sort of things I should try out. But don't worry too much about all that. For now, what were your two favorite items on this issue? 
 
