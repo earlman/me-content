@@ -16,3 +16,8 @@ but all I really care about is helping make the world a better place.</p>
 
 <p class="large">Currently, I run a company called <strong>
 foundations</strong>.</p>
+
+
+<em>
+<p>btw&mdash;this site's a permanent WIP</p>
+</em>
