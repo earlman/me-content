@@ -5,7 +5,7 @@
 
 ---
 
-Human existence is a set of *now-moments*. A now-moment, like the concept of Tao cannot be defined, only described.
+Human existence is a set of *now-moments*. A now-moment, much like the concept of Tao, cannot be defined&mdash;only described.
 
 Each now-moment is infinite in possibility and inexectricably linked to a subject's perception. Every now-moment is real and unique.
 
