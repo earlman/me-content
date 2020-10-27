@@ -1,7 +1,6 @@
 ---
     title: Dog's Best Friend
     date: 2020-05-23T00:00
-    date-published: 2020-05-23T00:00
     date-created: 2020-05-23T00:00
 
     tags:

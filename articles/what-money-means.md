@@ -2,7 +2,6 @@
 
     title: What “Money” Means
     subtitle: UBI from a different perspective
-    date-published: 2020-01-15T00:00
     date: 2020-01-15T00:00
     date-created: 2020-01-15T00:00
     date-updated: 2020-10-27T17:29
