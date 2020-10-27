@@ -1,9 +1,10 @@
 ---
 
     title: What “Money” Means
-    subtitle: How to see Universal Basic Income from a Different Perspective
+    subtitle: UBI from a different perspective
     date-published: 2020-01-15T00:00
     date-created: 2020-01-15T00:00
+    date-updated: 2020-10-27T17:29
     tags:
         - politics
     category:
