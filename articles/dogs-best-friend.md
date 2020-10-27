@@ -1,12 +1,13 @@
 ---
-title: Dog's Best Friend
-date: '2020-05-23T21:37:48.397Z'
-date-published: 2020-05-23T00:00
-date-created: 2020-05-23T00:00
-tags:
-	- philosophy
-category:
-	- experience
+    title: Dog's Best Friend
+    date: 2020-05-23T00:00
+    date-published: 2020-05-23T00:00
+    date-created: 2020-05-23T00:00
+
+    tags:
+        - philosophy
+    category:
+        - experience
 ---
 
 *We've long considered doggo "man's best friend." But are we dog's best friend?*
