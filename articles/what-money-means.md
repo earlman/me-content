@@ -2,9 +2,9 @@
 
     title: What “Money” Means
     subtitle: UBI from a different perspective
-    date: 2020-01-15T00:00
-    date-created: 2020-01-15T00:00
-    date-updated: 2020-10-27T17:29
+    date: 2020-01-15T00:00:00-05
+    date-created: 2020-01-15T00:00:00-05
+    date-updated: 2020-10-27T17:29:00-05
     tags:
         - politics
     category:

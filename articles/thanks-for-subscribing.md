@@ -2,8 +2,8 @@
 
     title: Thanks for Subscribing
     subtitle: a Note from the Author
-    date: 2020-05-24T15:00
-    date-created: 2020-05-24T15:00
+    date: 2020-05-24T15:00:00-05
+    date-created: 2020-05-24T15:00:00-05
     tags:
         - message
 

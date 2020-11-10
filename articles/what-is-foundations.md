@@ -1,8 +1,8 @@
 ---
 
     title: What is Foundations?
-    date: 2020-05-22T00:00
-    date-created: 2020-05-22T00:00
+    date: 2020-05-22T00:00:00-05
+    date-created: 2020-05-22T00:00:00-05
     tags:
         - projects
     category:

@@ -1,8 +1,8 @@
 ---
 
     title: 10,000 Pictures
-    date: 2020-05-24T12:00
-    date-created: 2020-05-24T12:00
+    date: 2020-05-24T12:00:00-05
+    date-created: 2020-05-24T12:00:00-05
     tags:
         - philosophy
     category:

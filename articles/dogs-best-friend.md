@@ -1,7 +1,7 @@
 ---
     title: Dog's Best Friend
-    date: 2020-05-23T00:00
-    date-created: 2020-05-23T00:00
+    date: 2020-05-23T00:00:00-05
+    date-created: 2020-05-23T00:00:00-05
 
     tags:
         - philosophy
