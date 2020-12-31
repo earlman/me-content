@@ -12,7 +12,7 @@
 <p class="large">Hiya! I’m Earl.</p>
 
 <p class="large">I’m a digital craftsman and a humble aesthete,
-but all I really care about is helping make the world a better place.</p>
+making the world a better place.</p>
 
-<p class="large">Currently, I run a company called <strong>
+<p class="large">Currently, I run a business called <strong>
 foundations</strong>.</p>
