@@ -14,5 +14,5 @@
 <p class="large">I’m a digital craftsman and a humble aesthete,
 making the world a better place.</p>
 
-<p class="large">Currently, I run a business called <strong>
+<p class="large">Currently, I am working on a personal project called <strong>
 foundations</strong>.</p>
