@@ -9,10 +9,9 @@
     This file contains html that's rendered below the title at earlman.me/
 -->
 
-<p class="large">Hiya! I’m Earl.</p>
+<p class="large">Hi! I’m Earl.</p>
 
 <p class="large">I’m a digital craftsman and a humble aesthete,
-making the world a better place.</p>
+building websites for creators and small businesses.</p>
 
-<p class="large">Currently, I run a business called <strong>
-foundations</strong>.</p>
+<p class="large">Lately, I've been interested in finance and crypto.</p>
